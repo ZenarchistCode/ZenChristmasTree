@@ -15,12 +15,6 @@ class Zen_ChristmasTree_Green_Static extends BuildingBase
 			m_TreeLight.AttachOnMemoryPoint(this, "action");
 		}
     }
-
-    override void EEInit()
-	{
-        SetScale(0.28);
-        Update();
-	}
 	
 	override void EEDelete(EntityAI parent)
 	{
